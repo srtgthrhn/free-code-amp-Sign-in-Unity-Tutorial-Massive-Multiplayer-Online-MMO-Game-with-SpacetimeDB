@@ -1,0 +1,12 @@
+server-csharp/bin
+server-csharp/obj
+client-unity/Temp
+client-unity/Logs
+client-unity/Library
+client-unity/ProjectSettings
+client-unity/Assets/autogen
+client-unity/Assets/Settings
+client-unity/Assets/TextMesh Pro
+client-unity/UserSettings
+client-unity/Assets/Scenes
+client-unity/.vscode
