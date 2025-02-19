@@ -7,8 +7,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    const string SERVER_URL = "http://52.54.111.197:3000";
-    const string MODULE_NAME = "blackholio-beau";
+    const string SERVER_URL = "http://127.0.0.1:3000";
+    const string MODULE_NAME = "blackholio";
 
     public static event Action OnConnected;
     public static event Action OnSubscriptionApplied;
