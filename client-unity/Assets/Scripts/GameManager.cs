@@ -7,8 +7,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    const string SERVER_URL = "http://127.0.0.1:3000";
-    const string MODULE_NAME = "blackholio";
+    const string SERVER_URL = "http://52.54.111.197:3000";
+    const string MODULE_NAME = "blackholio-beau";
 
     public static event Action OnConnected;
     public static event Action OnSubscriptionApplied;
@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        PlayerPrefs.DeleteAll();
         Instance = this;
         Application.targetFrameRate = 60;
 
